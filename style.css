@@ -1,0 +1,81 @@
+
+*{
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    background-color: none; 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px; /* Ajuste o valor conforme necessário */
+    padding: 45px;
+    background-color: rgba(201, 201, 201, 0.685);
+    background-image: linear-gradient(to left, rgba(11, 145, 207, 0.507), rgba(128, 179, 47, 0.267));
+}
+h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: black;
+  border-bottom: solid;
+  padding-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-left: px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 13px;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 10px;
+
+}
+button {
+    display: inline;
+    margin: 0 auto; /* Centraliza horizontalmente o botão */
+    padding: 10px;
+    background-color: #139218;
+    color: white;
+    border-radius: 9px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600; 
+    transition: background-color 0.3s ease-in-out;
+    
+    
+}
+button:hover {
+  background-color: orangered;
+}
+
+
+
+div.resultado {
+  margin-top: 20px;
+  border: 1px ;
+  padding: 25px;
+  font-size: 19px;
+  font-weight: 650px;
+  text-align: left;
+  background-color: none;
+  max-width: 750px;
+}
+div.resultado p {
+  margin: 0; 
+  
+} 
+
+#logo{
+  max-width: 95px;
+}
